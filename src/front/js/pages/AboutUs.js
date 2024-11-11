@@ -3,11 +3,11 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import "./../../styles/aboutus.css";
 import { Fade, Zoom } from 'react-awesome-reveal';
 import NotType from '../component/Utils/NotType';
-import createbox from '/workspaces/Liquiboxes_2.0/src/front/img/createbox.gif';
-import clothes from '/workspaces/Liquiboxes_2.0/src/front/img/clothes.gif';
-import usergif from '/workspaces/Liquiboxes_2.0/src/front/img/usergif.gif';
-import download from '/workspaces/Liquiboxes_2.0/src/front/img/download.gif';
-import change from '/workspaces/Liquiboxes_2.0/src/front/img/change.gif';
+import createbox from '/workspaces/Liquiboxes/src/front/img/createbox.gif';
+import clothes from '/workspaces/Liquiboxes/src/front/img/clothes.gif';
+import usergif from '/workspaces/Liquiboxes/src/front/img/usergif.gif';
+import download from '/workspaces/Liquiboxes/src/front/img/download.gif';
+import change from '/workspaces/Liquiboxes/src/front/img/change.gif';
 
 const AboutUs = () => {
   return (
