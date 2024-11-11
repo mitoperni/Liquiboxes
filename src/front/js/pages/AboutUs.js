@@ -3,12 +3,6 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import "./../../styles/aboutus.css";
 import { Fade, Zoom } from 'react-awesome-reveal';
 import NotType from '../component/Utils/NotType';
-import "../../img"
-import createbox from '../../img/createbox.gif';
-import clothes from '../../img/clothes.gif';
-import usergif from '../../img/usergif.gif';
-import download from '../../img/download.gif';
-import change from '../../img/change.gif';
 
 const AboutUs = () => {
   return (
@@ -37,31 +31,31 @@ const AboutUs = () => {
           <h2 className='section-title'>¿Cómo funciona Liquiboxes?</h2>
           <div className="steps-container">
             <div className='step'>
-              <img src={createbox} alt='Crear caja' className='step-icon' />
+              <img src="https://i.imgur.com/Ob3H2us.gif" alt='Crear caja' className='step-icon' />
               <div className='step-text'>
                 <p><strong>1. Creación de Cajas:</strong> Las tiendas crean <strong>Mystery Boxes</strong> de diferentes tamaños y precios, seleccionando los productos y el número de artículos que contendrá la caja.</p>
               </div>
             </div>
             <div className='step'>
-              <img src={clothes} alt='Preferencias' className='step-icon' />
+              <img src="https://i.imgur.com/sYsBIIJ.gif" alt='Preferencias' className='step-icon' />
               <div className='step-text'>
                 <p><strong>2. Preferencias del Cliente:</strong> Los clientes especifican sus tallas, estilo, tipos de productos y categorías que les interesan.</p>
               </div>
             </div>
             <div className='step'>
-              <img src={usergif} alt='Selección aleatoria' className='step-icon' />
+              <img src="https://i.imgur.com/IBetkLS.gif" alt='Selección aleatoria' className='step-icon' />
               <div className='step-text'>
                 <p><strong>3. Selección Aleatoria:</strong> Cuando un cliente compra una caja, Liquiboxes elige artículos aleatoriamente, y la tienda confirma la coincidencia de stock.</p>
               </div>
             </div>
             <div className='step'>
-              <img src={change} alt='Cambio de productos' className='step-icon' />
+              <img src="https://i.imgur.com/Zfub9ff.gif" alt='Cambio de productos' className='step-icon' />
               <div className='step-text'>
                 <p><strong>4. Cambios:</strong> Si no hay stock de un artículo, la tienda puede cambiarlo por otro con la aprobación de la administración.</p>
               </div>
             </div>
             <div className='step centered-step'>
-              <img src={download} alt='Descarga de PDF' className='step-icon' />
+              <img src="https://i.imgur.com/i7dEdR6.gif" alt='Descarga de PDF' className='step-icon' />
               <div className='step-text'>
                 <p><strong>5. Descarga de Orden:</strong> Tras la confirmación, la tienda descarga un PDF con la orden de envío, artículos seleccionados y datos del cliente.</p>
               </div>
