@@ -72,7 +72,6 @@ def get_admin(admin_id):
     return jsonify(admin_user.serialize()), 200
 
 @admins.route('/', methods=['POST'])
-@jwt_required()
 def create_admin():
     current_user = get_jwt_identity()
     if current_user['type'] != 'SuperAdmin':
