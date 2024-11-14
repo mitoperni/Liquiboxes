@@ -85,10 +85,15 @@ const CreateMysteryBox = () => {
 
     const handleAddItem = (e) => {
         e.preventDefault();
-        if (newItem.trim() !== "") {
+        const items = newItem
+            .split('\n') // Divide el texto por saltos de línea
+            .map(item => item.trim()) // Elimina espacios extra de cada línea
+            .filter(item => item !== ""); // Elimina líneas vacías
+
+        if (items.length > 0) {
             setNewBox(prevState => ({
                 ...prevState,
-                possibleItems: [...prevState.possibleItems, newItem.trim()]
+                possibleItems: [...prevState.possibleItems, ...items] // Añade todos los ítems al array
             }));
             setNewItem("");
         }
