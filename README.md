@@ -2,8 +2,6 @@
 
 Liquiboxes is an innovative platform that revolutionizes how businesses manage inventory and how customers shop. We connect small and large vendors looking to **liquidate stock** quickly with buyers seeking **quality products at irresistible prices** through **personalized Mystery Boxes**. 🛍️
 
-Esto es una prueba
-
 ---
 
 ## 🧑‍💼 About Us
